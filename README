@@ -1,2 +1,2 @@
-Simple UART transmission protocol. Currently one-way communication with unused parity bit for error correction.
+Simple SPI transmission protocol. Currently one-way communication with unused parity bit for error correction.
 Should soon be a two way communication code + using parity bits.
