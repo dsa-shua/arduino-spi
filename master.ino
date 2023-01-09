@@ -55,7 +55,7 @@ void print_bits () {
     Serial.println(in_byte[0]);
 }
 
-void UART() {
+void SPI() {
 
   // START PHASE
   digitalWrite(CLK, HIGH); digitalWrite(CS,HIGH); delay(1); digitalWrite(MOSI,LOW); 
@@ -141,7 +141,7 @@ void transmit() {
     
     print_bits();
     
-    UART(); // do UART PROTOCOL
+    SPI(); // do SPI PROTOCOL
   }
 }
 
